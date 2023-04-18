@@ -1,0 +1,27 @@
+.addButton {
+  font-family: 'Roboto';
+  background: #ebecf0;
+  color: #5e6c84;
+  display: flex;
+  gap: 5px;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+
+  &:hover {
+    color: #0067a3;
+    font-weight: 700;
+  }
+  &:disabled {
+    opacity: 0.3;
+    cursor: default;
+  }
+  &:disabled:hover {
+    color: #5e6c84;
+    font-weight: 400;
+  }
+}
+.plus {
+  font-size: 30px;
+  font-weight: 300;
+}

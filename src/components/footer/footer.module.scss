@@ -1,0 +1,25 @@
+.footer {
+  height: var(--foter-height);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  padding: 0.75em;
+  background-color: #0067a3;
+  flex-shrink: 0;
+  font-size: 18px;
+  min-height: 47px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+}
+
+@media screen and (orientation: portrait) and (min-device-width: 320px) and (max-device-width: 700px) {
+  .footer {
+    display: none;
+    background-color: #0079bf;
+  }
+}

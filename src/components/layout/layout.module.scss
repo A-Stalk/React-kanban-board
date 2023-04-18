@@ -1,0 +1,19 @@
+.layout {
+  display: flex;
+  flex-flow: column;
+  background-color: #0079bf;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (orientation: portrait) and (min-device-width: 320px) and (max-device-width: 700px) {
+  .layout {
+    display: flex;
+    flex-flow: column;
+    background-color: #0079bf;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+}
